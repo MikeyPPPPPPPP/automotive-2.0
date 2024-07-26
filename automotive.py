@@ -1,5 +1,6 @@
 import concurrent.futures
 import requests
+import time
 import os
 
 class movieDownloader:
@@ -17,6 +18,8 @@ class movieDownloader:
 
 
     def build_concat_file(self):
+        self.downloaded_segment_names.sort()
+        time.sleep(5)
         with open("videos.txt","w") as video_file:
             for index in self.downloaded_segments:
                 video_file.write(f"file '{index}'\n")
