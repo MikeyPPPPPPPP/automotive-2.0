@@ -47,7 +47,7 @@ class movieDownloader:
             for index in self.downloaded_segment_names:
                 video_file.write(f"file '{index}'\n")
 
-        os.system(f'ffmpeg -hide_banner -f concat -i {self.filename+"/"}videos.txt -c copy "{self.filename+"/"+self.movie_name}.mp4"')
+        os.system(f'ffmpeg -v quiet -stats -f concat -i {self.filename+"/"}videos.txt -c copy "{self.filename+"/"+self.movie_name}.mp4"')
         os.system(f'mv "{self.filename+"/"+self.movie_name}.mp4" .')#~/Desktop/movies')
         
         
