@@ -59,7 +59,7 @@ class movieDownloader:
         else:
             format_int = '%04d'%segment_number+'.txt'# 0002.txt, 0212.txt, 0021.txt
 
-            r = requests.get(self.url+'%04d'%segment_number+'.txt', timeout=5)
+            r = requests.get(self.url+format_int, timeout=5)
             if r.status_code == 200:
                 #print('Downloading: '+'%04d'%segment_number)
                 print('\r[*] Downloading: '+'%04d'%segment_number +' [*]',end='', flush=True)
