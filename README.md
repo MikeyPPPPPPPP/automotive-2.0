@@ -23,7 +23,9 @@ ffmpeg    (install guide https://www.ffmpeg.org/documentation.html)
 2. Setup your browser proxy to connect to *:8080 (basicly one click with Foxy Proxy)
 3. Play the movie normaly until the program starts downloading (This should be instant from pressing play on the movie)
 4. Enjoy!
- 
+
+ # Demo Video (Youtube)
+https://www.youtube.com/watch?v=CeK18eqvpwo
 
 # Info
 
