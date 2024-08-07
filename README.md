@@ -24,7 +24,8 @@ ffmpeg    (install guide https://www.ffmpeg.org/documentation.html)
 3. Play the movie normaly until the program starts downloading (This should be instant from pressing play on the movie)
 4. Enjoy!
  
-   
+
+# Info
 
 The site just lets you stream basically any movie or show you want. I've done this on another site, but they fix bug,
 not really - they just made it harder also there selection was ... meh. This site is big and very popular with numerous
