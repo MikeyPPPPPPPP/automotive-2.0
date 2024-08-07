@@ -76,14 +76,13 @@ class movieDownloader:
             executor.map(self.downloadSegmant, [x for x in range(0,9999)])
 
 
-
-mov_name = input("Movie_Name:")
-
-mov = movieDownloader(mov_name)
-mov.start_Proxy()
-mov.build_concat_file()
-
-
-time.sleep(1)
-os.system(f'rm -rf {mov.filename}')
+def main(mov_name):
+    mov = movieDownloader(mov_name)
+    mov.start_Proxy()
+    mov.build_concat_file()
+    time.sleep(1)
+    os.system(f'rm -rf {mov.filename}')
             
+if __name__ == "__main__":
+    mov_name = input("Movie_Name:")
+    main(mov_name)
