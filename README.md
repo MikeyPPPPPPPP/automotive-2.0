@@ -7,9 +7,16 @@ Fork of MikeyPPPPPPPP automotive-2.0 code they wrote to download movies from an 
 ```
 pip install -r requirements.txt
 ```
-```
-requests
-mitmproxy
+## Python Modules Used
+```python
+import concurrent.futures
+import requests
+import time
+import os
+
+from mitmproxy import ctx
+import mitmproxy
+import re
 ```
 
 ## Installed - Linux
