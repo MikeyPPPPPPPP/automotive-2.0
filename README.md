@@ -55,4 +55,3 @@ The site must just let you stream basically any movie or show you want. This wor
 not really - they just made it harder and also there selection was ... meh. This site is big and very popular with numerous
 UI/UX updates. Theres a Cloudflare WAF along with a bunch of anti-dubugging techniques being used. Unfortunately for them,
 with enough effort and time - anything is possible, especially with code.
-![Screenshot 2024-08-12 120532](https://github.com/user-attachments/assets/cd14f187-39ba-4f03-8334-92c2eb3cb8d7)
