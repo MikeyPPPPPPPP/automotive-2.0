@@ -9,14 +9,24 @@ pip install -r requirements.txt
 ```
 ## Python Modules Used
 ```python
-import concurrent.futures
-import requests
-import time
-import os
-
+from requests import Response
+from requests import get
+from concurrent.futures import ThreadPoolExecutor
+from os import system
+from os import remove
+from os import mkdir
+from os.path import exists
+from os.path import isdir
+from shutil import move
+from shutil import rmtree
+from time import sleep
+import tkinter as tk
+from tkinter import filedialog
 from mitmproxy import ctx
 import mitmproxy
 import re
+import argparse
+import configparser
 ```
 
 ## Installed - Linux
