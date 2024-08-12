@@ -9,9 +9,9 @@ pip install -r requirements.txt
 
 ## System Requirements
 ```
-FoxyProxy (Chrome/FireFox Browser extention https://www.google.com/search?q=foxyproxy+extension)
-mitmproxy (install guide https://docs.mitmproxy.org/stable/overview-installation/)
-ffmpeg    (install guide https://www.ffmpeg.org/documentation.html)
+FoxyProxy (Chrome/FireFox Browser extention [foxyproxy extension](https://www.google.com/search?q=foxyproxy+extension))
+mitmproxy (install guide [mitmproxy](https://docs.mitmproxy.org/stable/overview-installation/))
+ffmpeg    (install guide [ffmpeg](https://www.ffmpeg.org/download.html))
 ```
 
 # Setup
