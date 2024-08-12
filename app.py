@@ -4,6 +4,7 @@ def main(mov_name, destination):
     mov.start_Proxy()
     mov.build_concat_file()
     mov.cleanup()
+    #mov.exe_cleanup() # ONLY FOR EXE COMPALATION DO NOT ENABLE
 
 
 if __name__ == "__main__":

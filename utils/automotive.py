@@ -64,6 +64,11 @@ class movieDownloader:
         remove_folder(self.filename)
 
 
+    def exe_cleanup(self):
+        take_rest()
+        remove_folder('utils')
+
+
     def downloadSegmant(self, segment_number: int):
         if self.errors > 10:pass
         else:
