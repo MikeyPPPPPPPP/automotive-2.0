@@ -24,5 +24,11 @@ if __name__ == "__main__":
             destination = get_destination_folder_gui()
         else:
             destination = load_destination()
-            
-    main(mov_name, destination)
+
+    while True:        
+        main(mov_name, destination)
+        user_input = input("Would you like to rip another movie? (Yes|No)")
+        if user_input.lower() == "no" or user_input.lower() == "n":
+            break
+        elif user_input.lower() != "yes" or user_input.lower() != "y":
+            break
