@@ -4,4 +4,6 @@ def run_ffmpeg(source_file: str, video_name: str) -> int:
 
 def run_proxy() -> int:
     from os import system
+    from utils.proxy_file_check import validate_proxy_file
+    validate_proxy_file()
     system(f'mitmproxy -s utils\\proxy.py')

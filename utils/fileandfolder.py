@@ -56,8 +56,8 @@ def check_exits(fileorfolder: str) -> bool:
 
 def make_directory(destination_folder: str) -> None:
     if not check_exits(destination_folder):
-        from os import mkdir
-        mkdir(destination_folder)
+        from os import makedirs
+        makedirs(destination_folder)
 
 
 def make_backup_folder() -> str:
@@ -87,3 +87,9 @@ def make_config_folder() -> None:
     config_folder = "config"
     if not check_exits(config_folder):
         make_directory(config_folder)
+
+
+def make_utils_folder() -> None:
+    utils_folder = "utils"
+    if not check_exits(utils_folder):
+        make_directory(utils_folder)

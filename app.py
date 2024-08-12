@@ -23,5 +23,5 @@ if __name__ == "__main__":
             destination = get_destination_folder_gui()
         else:
             destination = load_destination()
-
+            
     main(mov_name, destination)
