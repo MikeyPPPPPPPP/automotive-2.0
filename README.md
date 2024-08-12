@@ -29,6 +29,19 @@ import argparse
 import configparser
 ```
 
+# Usage:
+```
+usage: app.py [-h] [-r] [-d DESTINATION]
+
+Manage movie folder location.
+
+options:
+  -h, --help            show this help message and exit
+  -r, --reset           Reset movie's folder location
+  -d DESTINATION, --destination DESTINATION
+                        Specify the movie's folder location
+```
+
 ## Installed - Linux
 ```
 FoxyProxy (Chrome/FireFox Browser extention)
@@ -55,7 +68,6 @@ ffmpeg    (install guide https://www.ffmpeg.org/documentation.html)
 8. Click **Import** and navagate to the ```.mitmproxy/``` folder and select one of the certificates ```.cer``` should work in most cases<br>![Screenshot 2024-08-12 120532](https://github.com/user-attachments/assets/cd14f187-39ba-4f03-8334-92c2eb3cb8d7)<br>
 9. If you where getting any certificate errors in your browser they should be gone now.
 
-
 # How To:
 
 1. Start the program and enter the movie name
@@ -63,7 +75,7 @@ ffmpeg    (install guide https://www.ffmpeg.org/documentation.html)
 3. Play the movie normaly until the program starts downloading (This should be instant from pressing play on the movie)
 4. Enjoy!
 
- # Demo Video (Youtube)
+# Demo Video (Youtube)
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=CeK18eqvpwo" target="_blank"><img src="http://img.youtube.com/vi/CeK18eqvpwo/0.jpg" alt="Youtube Video" width="240" height="180" border="10" /></a>
 
 # Info
