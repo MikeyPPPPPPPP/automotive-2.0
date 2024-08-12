@@ -1,5 +1,6 @@
 def argsparser():
     import argparse
+    from os import _exit
 
     parser = argparse.ArgumentParser(description='Manage movie folder location.')
     
@@ -22,7 +23,7 @@ def argsparser():
             print(f"(if you where wondering)")
         else:
             print(f"The destination of \"{dest}\" will no longer be used.")
-        exit(0)
+        _exit(0)
 
     elif args.destination:
         from utils.configuring import save_destination
