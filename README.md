@@ -51,7 +51,6 @@ ffmpeg    (install guide https://www.ffmpeg.org/documentation.html)
 
 ## Installed - Window
 ```
-Powershell (Till I can rework the code so i stops relying on the system command line)
 FoxyProxy (Chrome/FireFox Browser extention https://www.google.com/search?q=foxyproxy+extension)
 mitmproxy (install guide https://docs.mitmproxy.org/stable/overview-installation/)
 ffmpeg    (install guide https://www.ffmpeg.org/documentation.html)
