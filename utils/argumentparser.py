@@ -22,7 +22,8 @@ def argsparser():
             print(f"(if you where wondering)")
         else:
             print(f"The destination of \"{dest}\" will no longer be used.")
-        exit()
+        exit(0)
+
     elif args.destination:
         from utils.configuring import save_destination
         save_destination(args.destination)
