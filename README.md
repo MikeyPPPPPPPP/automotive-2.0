@@ -17,7 +17,7 @@ ffmpeg    (install guide https://www.ffmpeg.org/download.html)
 # Setup
 
 1. Navigate in your file explorer to ```~/.mitmproxy/``` on linux and ```%userprofile%/.mitmproxy/``` on windows.
-2. If you cannot locate the folder ```~/.mitmproxy/``` or ```%userprofile%/.mitmproxy/``` it is most likely cause you have not run mitmproxy or start the application till terminal changes yet.
+2. If you cannot locate the folder ```~/.mitmproxy/``` or ```%userprofile%/.mitmproxy/``` it is most likely cause you have not run mitmproxy or start the automotive exe or source till terminal changes yet.
 3. Find the file called ```mitmproxy-ca-cert.cer``` in the ```.mitmproxy``` folder there are other CA certificates there if your browser does not support this one.
 4. Next we open your browser of choice personally i use Opera GX and Firefox, but this should be the same for most browsers.
 5. Navagate to your browsers settings and search for **certificates**.<br>![Screenshot 2024-08-12 114823](https://github.com/user-attachments/assets/dd59f9a6-9523-4df5-9140-5863521a2583) ![Screenshot 2024-08-12 115130](https://github.com/user-attachments/assets/eeafdc89-2127-4a63-8a1f-2ee0695ae337)<br>
