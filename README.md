@@ -1,57 +1,15 @@
 # automotive-3.0
 Fork of MikeyPPPPPPPP automotive-2.0 code they wrote to download movies from an illegal streaming website.
 
-
 # Requirments:
 ## Python Requirements
 ```
 pip install -r requirements.txt
 ```
-## Python Modules Used
-```python
-from requests import Response
-from requests import get
-from concurrent.futures import ThreadPoolExecutor
-from os import system
-from os import remove
-from os import mkdir
-from os.path import exists
-from os.path import isdir
-from shutil import move
-from shutil import rmtree
-from time import sleep
-from tkinter import filedialog
-from mitmproxy import ctx
-import tkinter as tk
-import mitmproxy
-import re
-import argparse
-import configparser
-```
 
-# Usage:
-```
-usage: app.py [-h] [-r] [-d DESTINATION]
-
-Manage movie folder location.
-
-options:
-  -h, --help            show this help message and exit
-  -r, --reset           Reset movie's folder location
-  -d DESTINATION, --destination DESTINATION
-                        Specify the movie's folder location
-```
-
-## Installed - Linux
+## System Requirements
 ```
 FoxyProxy (Chrome/FireFox Browser extention)
-mitmproxy (install guide https://docs.mitmproxy.org/stable/overview-installation/)
-ffmpeg    (install guide https://www.ffmpeg.org/documentation.html)
-```
-
-## Installed - Window
-```
-FoxyProxy (Chrome/FireFox Browser extention https://www.google.com/search?q=foxyproxy+extension)
 mitmproxy (install guide https://docs.mitmproxy.org/stable/overview-installation/)
 ffmpeg    (install guide https://www.ffmpeg.org/documentation.html)
 ```
@@ -77,6 +35,19 @@ ffmpeg    (install guide https://www.ffmpeg.org/documentation.html)
 2. Setup your browser proxy to connect to *:8080 (basicly one click with Foxy Proxy)
 3. Play the movie normaly until the program starts downloading (This should be instant from pressing play on the movie)
 4. Enjoy!
+   
+# Usage:
+```
+usage: app.py [-h] [-r] [-d DESTINATION]
+
+Manage movie folder location.
+
+options:
+  -h, --help            show this help message and exit
+  -r, --reset           Reset movie's folder location
+  -d DESTINATION, --destination DESTINATION
+                        Specify the movie's folder location
+```
 
 # Demo Video (Youtube)
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=CeK18eqvpwo" target="_blank"><img src="http://img.youtube.com/vi/CeK18eqvpwo/0.jpg" alt="Youtube Video" width="240" height="180" border="10" /></a>
@@ -87,3 +58,25 @@ The site must just let you stream basically any movie or show you want. This wor
 not really - they just made it harder and also there selection was ... meh. This site is big and very popular with numerous
 UI/UX updates. Theres a Cloudflare WAF along with a bunch of anti-dubugging techniques being used. Unfortunately for them,
 with enough effort and time - anything is possible, especially with code.
+
+## Python Modules Used
+```python
+from requests import Response
+from requests import get
+from concurrent.futures import ThreadPoolExecutor
+from os import system
+from os import remove
+from os import mkdir
+from os.path import exists
+from os.path import isdir
+from shutil import move
+from shutil import rmtree
+from time import sleep
+from tkinter import filedialog
+from mitmproxy import ctx
+import tkinter as tk
+import mitmproxy
+import re
+import argparse
+import configparser
+```
