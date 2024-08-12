@@ -20,9 +20,9 @@ from os.path import isdir
 from shutil import move
 from shutil import rmtree
 from time import sleep
-import tkinter as tk
 from tkinter import filedialog
 from mitmproxy import ctx
+import tkinter as tk
 import mitmproxy
 import re
 import argparse
