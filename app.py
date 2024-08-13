@@ -27,7 +27,7 @@ if __name__ == "__main__":
 
     while True:        
         main(mov_name, destination)
-        user_input = input("Would you like to rip another movie? (Yes|No)")
+        user_input = input("Would you like to rip another movie? (Yes|No) ")
         if user_input.lower() == "no" or user_input.lower() == "n":
             break
         elif user_input.lower() != "yes" or user_input.lower() != "y":

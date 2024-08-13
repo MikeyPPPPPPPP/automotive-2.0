@@ -42,7 +42,7 @@ class movieDownloader:
         take_rest()
         remove_file('log.txt')
         print(f"[*] Downloading segments with {str(self.threads)} threads [*]")
-        ripper(self.downloadSegmant)
+        ripper(self.downloadSegmant) # also takes in the value self.threads, to control the number of works in ThreadExecutePool
 
 
     def build_concat_file(self):
@@ -56,6 +56,7 @@ class movieDownloader:
         if self.destination == None or self.destination == '' and not validate_folder_path(self.destination):
             reset_destination()
             self.destination = make_backup_folder()
+        print(f"Moving Movie to {self.destination}, this depends on your disk speed.")
         move_file(f"{self.filename+"/"+self.movie_name}.mp4", f"{self.destination+"/"+self.movie_name}.mp4")
         
 
