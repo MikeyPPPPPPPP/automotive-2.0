@@ -3,7 +3,7 @@ I wrote code to download movies from an illegal streaming  website. Enjoy
 
 
 # Why?
-They advertised a download option but I reverseninerd the javascript and found that to be false.
+They advertised a download option but I reverse engineered the javascript and found that to be false.
 
 
 # Requirments:
