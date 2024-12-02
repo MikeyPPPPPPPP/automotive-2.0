@@ -33,7 +33,13 @@ https://www.youtube.com/watch?v=CeK18eqvpwo
 
 # Info
 
-The site lets you stream basically any movie or show you want for free. I've done this on another site, 
-but they fix bug also there selection was ... meh. This site is very popular and has had numerous UI/UX 
-updates. Theres a Cloudflare WAF along with a bunch of anti-dubugging techniques being used. Unfortunately 
-for them, I've learned that with enough time and effort - anything is possible, especially with code. 
+The site allows you to stream virtually any movie or show for free. I’ve used 
+a similar platform before, but their bug fixes were lackluster, and the selection
+was mediocre. This site, however, is much more polished, boasting a popular
+reputation and frequent UI/UX updates. It employs a Cloudflare WAF and various
+anti-debugging techniques. Still, with enough time and effort, I’ve found that
+virtually any code can be cracked. 
+
+# Warning
+
+The FBI has taken down the site so this code is now useless.
