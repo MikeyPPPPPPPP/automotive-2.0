@@ -1,6 +1,9 @@
 # automotive-2.0
 I wrote code to download movies from an illegal streaming  website. Enjoy
 
+# Warning
+
+The FBI has taken down the site so this code is now useless.
 
 # Why?
 They advertised a download option but I reverse engineered the javascript and found that to be false.
@@ -40,6 +43,4 @@ reputation and frequent UI/UX updates. It employs a Cloudflare WAF and various
 anti-debugging techniques. Still, with enough time and effort, I’ve found that
 virtually any code can be cracked. 
 
-# Warning
 
-The FBI has taken down the site so this code is now useless.
